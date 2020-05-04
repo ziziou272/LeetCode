@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/CloneGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/CloneGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +281,7 @@
       <workItem from="1588301716463" duration="4833000" />
       <workItem from="1588371734792" duration="1475000" />
       <workItem from="1588531874277" duration="1584000" />
-      <workItem from="1588562523640" duration="495000" />
+      <workItem from="1588562523640" duration="1359000" />
     </task>
     <servers />
   </component>
