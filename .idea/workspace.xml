@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graph/graphValidTreeLC261.java" afterDir="false" />
+    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="LC138 updated noHashMap solutio nand hashMap solutionMoreClean">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Special1/LC138.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Special1/LC138.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Special1/LC138NoHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Special1/LC138s2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1S50rPZOLTdEGNWFh6Ttqm2RoVv" />
   <component name="ProjectViewState">
@@ -283,12 +286,26 @@
       <workItem from="1588371734792" duration="1475000" />
       <workItem from="1588531874277" duration="1584000" />
       <workItem from="1588562523640" duration="2339000" />
-      <workItem from="1588647272613" duration="260000" />
+      <workItem from="1588647272613" duration="732000" />
+      <workItem from="1588711717633" duration="860000" />
     </task>
+    <task id="LOCAL-00001" summary="LC261dfs added">
+      <created>1588650701408</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588650701408</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LC261dfs added" />
+    <MESSAGE value="LC138 updated noHashMap solutio nand hashMap solutionMoreClean" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC138 updated noHashMap solutio nand hashMap solutionMoreClean" />
   </component>
   <component name="WindowStateProjectService">
     <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1586738546847">
@@ -309,6 +326,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
+    <state x="-901" y="283" key="CommitChangelistDialog2" timestamp="1588713500552">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state x="-901" y="283" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588713500552" />
+    <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1588650700538" />
     <state width="1878" height="485" key="GridCell.Tab.0.bottom" timestamp="1588225742481">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -398,21 +420,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562364512" />
-    <state x="464" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1588647272086">
+    <state x="464" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1588711720639">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="464" y="292" key="com.intellij.ide.util.TipDialog/-1280.0.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1580421175883" />
-    <state x="464" y="277" key="com.intellij.ide.util.TipDialog/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1588647272086" />
+    <state x="464" y="277" key="com.intellij.ide.util.TipDialog/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1588711720639" />
     <state x="309" y="216" key="com.intellij.ide.util.TipDialog/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1580071897233" />
     <state x="309" y="212" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1583777621299" />
     <state x="464" y="279" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587700782807" />
     <state x="2492" y="-98" key="com.intellij.ide.util.TipDialog/0.23.1280.722/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1584554139178" />
     <state x="464" y="296" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1586562891689" />
     <state x="464" y="289" key="com.intellij.ide.util.TipDialog/0.23.1920.989@0.23.1920.989" timestamp="1581217478007" />
-    <state x="763" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588565446671">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588713444995">
+      <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="763" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1588565446671" />
+    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588713444995" />
+    <state x="763" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1588652142859" />
     <state x="1086" y="274" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581119920163">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -421,9 +444,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="504" y="23" width="1131" height="877" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562615125" />
-    <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup" timestamp="1586562418707">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup" timestamp="1588711754529">
+      <screen x="-1280" y="280" width="1280" height="800" />
     </state>
+    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588711754529" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1582157428814" />
     <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562418707" />
     <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1584741394696" />
