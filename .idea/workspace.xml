@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="LC138 updated noHashMap solutio nand hashMap solutionMoreClean">
+    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Special1/LC138.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Special1/LC138.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Special1/LC138NoHashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Special1/LC138s2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/LC272Revised.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/LC272Revised.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,7 +285,7 @@
       <workItem from="1588531874277" duration="1584000" />
       <workItem from="1588562523640" duration="2339000" />
       <workItem from="1588647272613" duration="732000" />
-      <workItem from="1588711717633" duration="860000" />
+      <workItem from="1588711717633" duration="1149000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -296,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588650701408</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LC138 updated noHashMap solutio nand hashMap solutionMoreClean">
+      <created>1588713612770</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588713612770</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,10 +331,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-901" y="283" key="CommitChangelistDialog2" timestamp="1588713500552">
+    <state x="-901" y="283" key="CommitChangelistDialog2" timestamp="1588713612296">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-901" y="283" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588713500552" />
+    <state x="-901" y="283" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588713612296" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1588650700538" />
     <state width="1878" height="485" key="GridCell.Tab.0.bottom" timestamp="1588225742481">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -431,10 +436,10 @@
     <state x="2492" y="-98" key="com.intellij.ide.util.TipDialog/0.23.1280.722/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1584554139178" />
     <state x="464" y="296" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1586562891689" />
     <state x="464" y="289" key="com.intellij.ide.util.TipDialog/0.23.1920.989@0.23.1920.989" timestamp="1581217478007" />
-    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588713444995">
+    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588718037753">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588713444995" />
+    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588718037753" />
     <state x="763" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1588652142859" />
     <state x="1086" y="274" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581119920163">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -444,10 +449,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="504" y="23" width="1131" height="877" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562615125" />
-    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup" timestamp="1588711754529">
+    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup" timestamp="1588717903460">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588711754529" />
+    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588717903460" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1582157428814" />
     <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562418707" />
     <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1584741394696" />
