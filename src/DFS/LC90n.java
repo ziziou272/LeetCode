@@ -20,12 +20,19 @@ public class LC90n {
             if(i > index && nums[i] == nums[i - 1]){
                 continue;
             }
-            Integer temp = nums[i];
-            level.add(temp);
+            level.add(nums[i]);
             subsetsWithDup(nums, i + 1, res, level);
-            level.remove(temp);
-
+            level.remove(level.size() - 1);
         }
     }
 }
+/*
+1 2 2 2 3
 
+       1            2        3
+     2  3            2 3
+   2    3
+ 2 3
+3
+
+*/

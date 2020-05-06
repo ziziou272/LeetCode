@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -285,7 +283,7 @@
       <workItem from="1588562523640" duration="2339000" />
       <workItem from="1588647272613" duration="732000" />
       <workItem from="1588711717633" duration="3793000" />
-      <workItem from="1588799011097" duration="345000" />
+      <workItem from="1588799011097" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -322,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588741382365</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LC47 permutation updated faster solution">
+      <created>1588799620903</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588799620904</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +339,8 @@
     <MESSAGE value="LC272 cleaner solution and idea updated" />
     <MESSAGE value="lc450 modified" />
     <MESSAGE value="LC1328" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC1328" />
+    <MESSAGE value="LC47 permutation updated faster solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC47 permutation updated faster solution" />
   </component>
   <component name="WindowStateProjectService">
     <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1586738546847">
@@ -355,10 +361,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-901" y="283" key="CommitChangelistDialog2" timestamp="1588741381995">
+    <state x="-901" y="283" key="CommitChangelistDialog2" timestamp="1588799619886">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-901" y="283" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588741381995" />
+    <state x="-901" y="283" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588799619886" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1588650700538" />
     <state width="1878" height="485" key="GridCell.Tab.0.bottom" timestamp="1588225742481">
       <screen x="0" y="0" width="1920" height="1080" />
