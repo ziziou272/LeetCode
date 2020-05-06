@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="" />
+    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -283,7 +285,7 @@
       <workItem from="1588562523640" duration="2339000" />
       <workItem from="1588647272613" duration="732000" />
       <workItem from="1588711717633" duration="3793000" />
-      <workItem from="1588799011097" duration="613000" />
+      <workItem from="1588799011097" duration="931000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -327,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588799620904</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="revised LC90 subset2">
+      <created>1588800316262</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588800316262</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +349,8 @@
     <MESSAGE value="lc450 modified" />
     <MESSAGE value="LC1328" />
     <MESSAGE value="LC47 permutation updated faster solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC47 permutation updated faster solution" />
+    <MESSAGE value="revised LC90 subset2" />
+    <option name="LAST_COMMIT_MESSAGE" value="revised LC90 subset2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1586738546847">
@@ -361,10 +371,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-901" y="283" key="CommitChangelistDialog2" timestamp="1588799619886">
+    <state x="-901" y="283" key="CommitChangelistDialog2" timestamp="1588800315879">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-901" y="283" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588799619886" />
+    <state x="-901" y="283" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588800315879" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1588650700538" />
     <state width="1878" height="485" key="GridCell.Tab.0.bottom" timestamp="1588225742481">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -479,10 +489,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="504" y="23" width="1131" height="877" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562615125" />
-    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup" timestamp="1588717903460">
+    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup" timestamp="1588801683158">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588717903460" />
+    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588801683158" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1582157428814" />
     <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562418707" />
     <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1584741394696" />

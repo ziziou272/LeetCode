@@ -30,3 +30,26 @@ public class LC216DFS {
         }
     }
 }
+class solutionRevised216{
+    public List<List<Integer>> combinationSum3(int k, int n) {
+        List<List<Integer>> res = new ArrayList<>();
+        if(n > 45) return res;
+        dfs(res, new ArrayList<>(), k, n, 1);
+        return res;
+    }
+    private void dfs(List<List<Integer>> res, List<Integer> path, int countRemain, int sumRemain, int index){
+        if(countRemain == 0){
+            if(sumRemain == 0){
+                res.add(new ArrayList<>(path));
+            }
+            return;
+        }
+        if(index > 9 || sumRemain < 0)
+            return;
+        for(int i = index; i <= 9; i++){
+            path.add(i);
+            dfs(res, path, countRemain - 1, sumRemain - i, i + 1);
+            path.remove(path.size() - 1);
+        }
+    }
+}
