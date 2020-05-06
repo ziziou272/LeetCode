@@ -12,8 +12,6 @@ public class LC450 {
         let's find the smallest value on the right node then replace the root with this value, and delted th node we found.
         we can use recursion to do this, since the node we found could possibly have right node, so recursion can helpe us deal with it
         then delete the node we found
-
-
 */
 
     /**
