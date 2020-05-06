@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stringAndArray/LC1328.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/LC450.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/LC450.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +284,8 @@
       <workItem from="1588531874277" duration="1584000" />
       <workItem from="1588562523640" duration="2339000" />
       <workItem from="1588647272613" duration="732000" />
-      <workItem from="1588711717633" duration="3531000" />
+      <workItem from="1588711717633" duration="3793000" />
+      <workItem from="1588799011097" duration="345000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -316,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588737219137</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LC1328">
+      <created>1588741382364</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588741382365</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +333,8 @@
     <MESSAGE value="LC138 updated noHashMap solutio nand hashMap solutionMoreClean" />
     <MESSAGE value="LC272 cleaner solution and idea updated" />
     <MESSAGE value="lc450 modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="lc450 modified" />
+    <MESSAGE value="LC1328" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC1328" />
   </component>
   <component name="WindowStateProjectService">
     <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1586738546847">
@@ -348,10 +355,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-901" y="283" key="CommitChangelistDialog2" timestamp="1588737218666">
+    <state x="-901" y="283" key="CommitChangelistDialog2" timestamp="1588741381995">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-901" y="283" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588737218666" />
+    <state x="-901" y="283" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588741381995" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1588650700538" />
     <state width="1878" height="485" key="GridCell.Tab.0.bottom" timestamp="1588225742481">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -442,21 +449,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562364512" />
-    <state x="464" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1588711720639">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="-971" y="485" key="com.intellij.ide.util.TipDialog" timestamp="1588799011999">
+      <screen x="-1280" y="280" width="1280" height="800" />
     </state>
     <state x="464" y="292" key="com.intellij.ide.util.TipDialog/-1280.0.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1580421175883" />
+    <state x="-971" y="485" key="com.intellij.ide.util.TipDialog/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588799011999" />
     <state x="464" y="277" key="com.intellij.ide.util.TipDialog/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1588711720639" />
-    <state x="309" y="216" key="com.intellij.ide.util.TipDialog/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1580071897233" />
     <state x="309" y="212" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1583777621299" />
     <state x="464" y="279" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587700782807" />
     <state x="2492" y="-98" key="com.intellij.ide.util.TipDialog/0.23.1280.722/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1584554139178" />
     <state x="464" y="296" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1586562891689" />
     <state x="464" y="289" key="com.intellij.ide.util.TipDialog/0.23.1920.989@0.23.1920.989" timestamp="1581217478007" />
-    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588741365744">
+    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588799586287">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588741365744" />
+    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588799586286" />
     <state x="763" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1588652142859" />
     <state x="1086" y="274" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581119920163">
       <screen x="0" y="0" width="1920" height="1080" />
