@@ -15,36 +15,37 @@ public class LC450 {
 
 
 */
+
+    /**
+     * most updated solution
+     1. it is possible the root will be deleted so, if it was,
+     updated the root val to new val instead deleted root and deleted the node with that val
+     2. there are 3 situations od deleting a node
+     a. no child/leaf -> just delete it
+     b. onde child -> let cur node = the child node
+     c. 2 children -> find the max in the left subtree, select that node ass new root and deleted this max node from left subtree
+     */
     public TreeNode deleteNode(TreeNode root, int key) {
-        if(root == null)
-            return null;
-
-        if(root.val == key){
-            //no empty
-            if(root.right != null && root.left != null){
-                root.val = findMin(root.right);
-                root.right = deleteNode(root.right, root.val);
-            }
-            else {
-                root = root.left == null ? deleteNode(root.right, key): deleteNode(root.left, key);
-            }
-
-        }
-        else if(root.val < key){
-            root.right = deleteNode(root.right, key);
-        }
-        else{
+        if(root == null) return null;
+        if(root.val > key){
             root.left = deleteNode(root.left, key);
+        }else if(root.val < key)
+            root.right = deleteNode(root.right, key);
+        else{
+            if(root.left != null && root.right != null){
+                TreeNode maxNode = findMax(root.left);
+                root.val = maxNode.val;
+                root.left = deleteNode(root.left, root.val);
+            }else{
+                root = root.left == null ? root.right : root.left;
+            }
         }
         return root;
     }
-
-    private int findMin(TreeNode root){
-        int min = root.val;
-        while (root.left != null)
-        {
-            root = root.left;
+    private TreeNode findMax(TreeNode root){
+        while(root.right != null){
+            root = root.right;
         }
-        return root.val;
+        return root;
     }
 }
