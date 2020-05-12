@@ -13,7 +13,7 @@ public class LC54 {
         return res;
     }
 
-    private void spiralOrder(int offset, int rowSize, int colSize, List res, int[][]matrix){
+    private void spiralOrder(int offset, int rowSize, int colSize, List<Integer> res, int[][]matrix){
         if(colSize == 0 ||rowSize == 0)
             return;
         if(colSize == 1){

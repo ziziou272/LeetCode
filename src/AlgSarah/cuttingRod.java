@@ -1,4 +1,4 @@
-package Alg.DP1;
+package AlgSarah;
 
 public class cuttingRod {
 
