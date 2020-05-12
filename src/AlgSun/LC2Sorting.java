@@ -10,7 +10,6 @@ public class LC2Sorting {
         System.out.println(Arrays.toString(arr));
     }
 }
-//todo: buggy
 class MergeSort{
     public void sort(int[] arr){
         //make copy, will make the merge function easier
