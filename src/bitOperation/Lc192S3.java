@@ -1,4 +1,4 @@
-package bitOperationDuplicate;
+package bitOperation;
 
 public class Lc192S3 {
     public int hammingWeight(int n) {

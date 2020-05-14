@@ -1,4 +1,4 @@
-package bitOperationDuplicate;
+package bitOperation;
 
 public class LC13Solution {
     public int romanToInt(String s) {

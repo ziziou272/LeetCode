@@ -1,4 +1,4 @@
-package bitOperationDuplicate;
+package bitOperation;
 //balanced tree
 //完全不会*
 import java.util.TreeSet;

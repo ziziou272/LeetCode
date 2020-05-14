@@ -1,4 +1,4 @@
-package bitOperationDuplicate;
+package bitOperation;
 
 public class bitOperationCheckUnique {
     public boolean checkUnique(char[] chars){

@@ -1,4 +1,4 @@
-package bitOperationDuplicate;
+package bitOperation;
 
 public class LC136bit {
     public int singleNumber(int[] nums) {

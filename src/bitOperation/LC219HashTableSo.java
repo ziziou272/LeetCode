@@ -1,22 +1,20 @@
-package bitOperationDuplicate;
+package bitOperation;
 
 import java.util.HashSet;
-
-public class LC219HashTable {//Time Limit Exceeded.
+//this is the best one
+public class LC219HashTableSo {
     public boolean containsNearbyDuplicate(int nums [], int k){
         if(nums == null || nums.length == 0) return false;
         int len = nums.length;
         HashSet<Integer> set = new HashSet<>();
         for(int i =0; i < len; i++){
+            if(set.contains(nums[i]))
+                return true;
             set.add(nums[i]);
-            for(int j =i + 1; j < i + 1 + k; j++ ){
-                if(j > len - 1)
-                    break;
-                if(set.contains(nums[j]))
-                    return true;
-            }
-            set.remove(nums[i]);
+            if(set.size() > k)//can't be k+1,因为出去还会加
+                set.remove(nums[i - k]);
         }
         return false;
     }
 }
+

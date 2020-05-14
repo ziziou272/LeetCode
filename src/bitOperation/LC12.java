@@ -1,4 +1,4 @@
-package bitOperationDuplicate;
+package bitOperation;
 
 import java.util.HashMap;
 import java.util.TreeSet;

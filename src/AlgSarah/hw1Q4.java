@@ -4,9 +4,13 @@ public class hw1Q4 {
     public static void main(String[] args) {
         int[] m = new int[]{1,2,6,9,15,16,17,28,39};
         int[] p = new int[]{9,1,6,3,3,7,1,52,9};
+        int[] x = new int[]{6, 7, 12, 13, 14};
+        int[] r = new int[]{5, 6, 5, 3, 1};
         findMaxProfit test = new findMaxProfit();
         System.out.println(test.findMax1(m, p, 20));
         System.out.println(test.findMax2(m, p, 20));
+        System.out.println(test.findMax1(x, r, 5));
+        System.out.println(test.findMax2(x, r, 5));
     }
 }
 class findMaxProfit{

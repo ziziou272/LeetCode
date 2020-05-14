@@ -1,4 +1,4 @@
-package bitOperationDuplicate;
+package bitOperation;
 
 public class LC231S1 {
     public boolean isPowerOfTwo(int n) {

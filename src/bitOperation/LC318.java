@@ -1,4 +1,4 @@
-package bitOperationDuplicate;
+package bitOperation;
 
 public class LC318 {
     public int maxProduct(String[] words) {

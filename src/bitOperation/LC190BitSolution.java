@@ -1,4 +1,4 @@
-package bitOperationDuplicate;
+package bitOperation;
 
 public class LC190BitSolution {
     public int reverseBits(int n) {

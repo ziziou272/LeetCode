@@ -1,4 +1,4 @@
-package bitOperationDuplicate;
+package bitOperation;
 
 public class LC219 {
     public boolean containsNearbyDuplicate(int nums [], int k){

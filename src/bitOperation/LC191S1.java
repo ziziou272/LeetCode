@@ -1,13 +1,12 @@
-package bitOperationDuplicate;
-
-public class Lc191S2 {
+package bitOperation;
+//mask 1 左移
+public class LC191S1 {
     public int hammingWeight(int n) {
         int mask = 1;
         int count = 0;
-        while(n != 0){
-            if((n & mask) != 0)
+        for(int i =0; i < 32; i++){
+            if((n & mask << i) != 0)
                 count++;
-            n >>>= 1;
         }
         return count;
     }
