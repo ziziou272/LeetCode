@@ -59,3 +59,32 @@ public class LC72DP {
         return memo[word1.length()][word2.length()];
     }
 }
+class nSpace{
+    //o(n) space的solution
+    public int minDistance(String word1, String word2) {
+        if(word1 == null) return word2 == null ? 0: word2.length();
+        if(word2 == null) return word1.length();
+        int len1 = word1.length(), len2 = word2.length();
+        int[] dp = new int[len2 + 1];
+        int prev = 0;
+        for(int i = 0; i <= len1; i++){
+            for(int j = 0; j <= len2; j++){
+                int temp = dp[j];
+                if(i == 0) dp[j] = j;
+                else if(j == 0) dp[j] = i;
+                else{
+                    int replace = 0;
+                    if(word1.charAt(i - 1) == word2.charAt(j - 1)){
+                        replace = prev;
+                    }
+                    else{
+                        replace = prev + 1;
+                    }
+                    dp[j] = Math.min(dp[j - 1] + 1, Math.min(dp[j] + 1, replace));
+                }
+                prev = temp;
+            }
+        }
+        return dp[len2];
+    }
+}
