@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/LC668.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP/LC72DP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/LC72DP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +315,9 @@
       <workItem from="1589338034485" duration="2959000" />
       <workItem from="1589341701707" duration="180000" />
       <workItem from="1589492352978" duration="1248000" />
-      <workItem from="1589661828989" duration="622000" />
+      <workItem from="1589661828989" duration="1278000" />
+      <workItem from="1589753384124" duration="111000" />
+      <workItem from="1589753613832" duration="1210000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -422,24 +424,30 @@
       <option name="project" value="LOCAL" />
       <updated>1589495193296</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="edit distance o(n) solution">
+      <created>1589664217306</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589664217306</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LC261dfs added" />
@@ -457,7 +465,8 @@
     <MESSAGE value="5800hw1 updated" />
     <MESSAGE value="bitOperation package rename" />
     <MESSAGE value="LC156 newer solution but Same method/approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC156 newer solution but Same method/approach" />
+    <MESSAGE value="edit distance o(n) solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit distance o(n) solution" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -487,10 +496,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-901" y="283" key="CommitChangelistDialog2" timestamp="1589495192934">
+    <state x="-901" y="283" key="CommitChangelistDialog2" timestamp="1589664216489">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-901" y="283" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1589495192934" />
+    <state x="-901" y="283" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1589664216489" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589492496846" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -609,20 +618,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562364512" />
-    <state x="-971" y="472" key="com.intellij.ide.util.TipDialog" timestamp="1589661828878">
+    <state x="-971" y="472" key="com.intellij.ide.util.TipDialog" timestamp="1589753382776">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
     <state x="-971" y="472" key="com.intellij.ide.util.TipDialog/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1589661828878" />
     <state x="464" y="277" key="com.intellij.ide.util.TipDialog/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589492352221" />
+    <state x="-971" y="472" key="com.intellij.ide.util.TipDialog/-1280.280.1280.800/0.23.1920.985@-1280.280.1280.800" timestamp="1589753382776" />
     <state x="309" y="212" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1583777621299" />
     <state x="464" y="279" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587700782807" />
     <state x="2492" y="-98" key="com.intellij.ide.util.TipDialog/0.23.1280.722/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1584554139178" />
     <state x="464" y="296" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1586562891689" />
     <state x="464" y="289" key="com.intellij.ide.util.TipDialog/0.23.1920.989@0.23.1920.989" timestamp="1581217478007" />
-    <state x="763" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589492458989">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589664220388">
+      <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588799586286" />
+    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1589664220388" />
     <state x="763" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589492458989" />
     <state x="1086" y="274" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581119920163">
       <screen x="0" y="0" width="1920" height="1080" />
