@@ -58,3 +58,64 @@ public class LC207 {
         return false;
     }
 }
+class Solution207 {
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        if(numCourses <= 1) return true;
+        if(prerequisites == null || prerequisites.length == 0 || prerequisites[0] == null || prerequisites[0].length == 0)
+            return true;
+        //build graph
+        List<List<Integer>> nexts = new ArrayList<>();
+        for(int i = 0; i < numCourses; i++){
+            nexts.add(new ArrayList<>());
+        }
+        for(int[] pair: prerequisites ){
+            int pre = pair[1];
+            int next = pair[0];
+            nexts.get(pre).add(next);
+        }
+        //check if any cycle
+        Boolean[] status = new Boolean[numCourses];
+        for(int i = 0; i < numCourses; i++){
+            if(checkCycle(prerequisites, status, nexts.get(i), nexts))
+                return false;
+        }
+        return true;
+    }
+    private boolean checkCycle(int[][] prerequisites, Boolean[] status, List<Integer> next, List<List<Integer>> nexts){
+        for(int course : next){
+            if(status[course] != null){
+                //found cycle, visiting
+                if(status[course])
+                    return true;
+            }
+            else{
+                status[course] = true;
+                if(checkCycle(prerequisites, status, nexts.get(course), nexts))
+                    return true;
+            }
+            status[course] = false;
+        }
+        return false;
+    }
+}
+/*
+5
+
+0 1 2 3    4
+   pre
+[1,0]
+[2,0]
+[2,1]
+[3,2]
+
+--------->
+0 -> 1 -> 2 -> 3
+4
+build graph:
+index
+0   1,2
+1   2
+2   3
+List<List<Integer>> nexts;
+
+*/
