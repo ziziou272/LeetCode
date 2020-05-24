@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="" />
+    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stringAndArray/LC15_3sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stringAndArray/LC15_3sum.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -316,6 +319,7 @@
       <workItem from="1589753384124" duration="111000" />
       <workItem from="1589753613832" duration="1719000" />
       <workItem from="1590200317269" duration="1643000" />
+      <workItem from="1590356762980" duration="814000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -443,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590208632995</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="LC11 added">
+      <created>1590356877477</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1590356877477</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +491,8 @@
     <MESSAGE value="edit distance o(n) solution" />
     <MESSAGE value="LC668 was added" />
     <MESSAGE value="LC207 modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC207 modified" />
+    <MESSAGE value="LC11 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC11 added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -510,10 +522,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-901" y="280" key="CommitChangelistDialog2" timestamp="1590208632565">
+    <state x="-923" y="280" key="CommitChangelistDialog2" timestamp="1590356877061">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-901" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1590208632565" />
+    <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1590356877061" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589772285100" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -634,19 +646,19 @@
     <state x="464" y="279" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587700782807" />
     <state x="2492" y="-98" key="com.intellij.ide.util.TipDialog/0.23.1280.722/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1584554139178" />
     <state x="464" y="296" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1586562891689" />
-    <state x="763" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589772257797">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590356810616">
+      <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1589664220388" />
+    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1590356810616" />
     <state x="763" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589772257797" />
     <state x="504" y="23" width="1131" height="877" key="find.popup" timestamp="1586562615125">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="504" y="23" width="1131" height="877" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562615125" />
-    <state x="458" y="158" width="1005" height="1004" key="search.everywhere.popup" timestamp="1590200784139">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup" timestamp="1590360653904">
+      <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1588801683158" />
+    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1590360653904" />
     <state x="458" y="158" width="1005" height="1004" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1590200784139" />
     <state x="458" y="158" width="1005" height="1004" key="search.everywhere.popup/-1280.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1589492369986" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1582157428814" />
