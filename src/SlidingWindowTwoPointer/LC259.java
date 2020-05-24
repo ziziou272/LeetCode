@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindowTwoPointer;
 
 import java.util.Arrays;
 //todo: duplicate?

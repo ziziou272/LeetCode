@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindowTwoPointer;
 //todo:两个关键点：1.更新max是更新的有效window的最大值而不是在变化的时候更新 2.index1和2初始值为-1，这样可以保证在两个ch为空初始化的时候start为0
 public class LC159 {
     public int lengthOfLongestSubstringTwoDistinct(String s) {

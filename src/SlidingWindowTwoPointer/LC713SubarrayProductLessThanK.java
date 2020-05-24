@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindowTwoPointer;
 
 public class LC713SubarrayProductLessThanK {
 }

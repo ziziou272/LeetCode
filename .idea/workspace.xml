@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/LC207.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/LC207.java" afterDir="false" />
-    </list>
+    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -318,7 +315,7 @@
       <workItem from="1589661828989" duration="1278000" />
       <workItem from="1589753384124" duration="111000" />
       <workItem from="1589753613832" duration="1719000" />
-      <workItem from="1590200317269" duration="1617000" />
+      <workItem from="1590200317269" duration="1643000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -439,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589772285776</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="LC207 modified">
+      <created>1590208632995</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1590208632995</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +479,8 @@
     <MESSAGE value="LC156 newer solution but Same method/approach" />
     <MESSAGE value="edit distance o(n) solution" />
     <MESSAGE value="LC668 was added" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC668 was added" />
+    <MESSAGE value="LC207 modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC207 modified" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -505,10 +510,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="569" y="141" key="CommitChangelistDialog2" timestamp="1589772285100">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="-901" y="280" key="CommitChangelistDialog2" timestamp="1590208632565">
+      <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-901" y="283" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1589664216489" />
+    <state x="-901" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1590208632565" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589772285100" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
       <screen x="0" y="0" width="1920" height="1040" />

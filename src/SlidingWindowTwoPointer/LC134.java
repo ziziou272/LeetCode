@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindowTwoPointer;
 
 public class LC134 {
     public int canCompleteCircuit(int[] gas, int[] cost) {

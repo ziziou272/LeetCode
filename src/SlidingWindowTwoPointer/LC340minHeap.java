@@ -1,9 +1,7 @@
 
-package SlidingWindow;
+package SlidingWindowTwoPointer;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.PriorityQueue;
 
 public class LC340minHeap {
     /*

@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindowTwoPointer;
 
 public class LC76revised {
     public String minWindow(String s, String t) {

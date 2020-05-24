@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindowTwoPointer;
 
 public class LC424 {
     public int characterReplacement(String s, int k) {

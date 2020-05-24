@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindowTwoPointer;
 
 public class LC340 {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
