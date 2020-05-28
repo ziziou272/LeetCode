@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindowTwoPointer/LC80.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindowTwoPointer/LC134.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindowTwoPointer/LC134.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,7 +321,7 @@
       <workItem from="1590200317269" duration="1643000" />
       <workItem from="1590356762980" duration="3663000" />
       <workItem from="1590522789666" duration="3135000" />
-      <workItem from="1590626464083" duration="963000" />
+      <workItem from="1590626464083" duration="1387000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -491,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590626985808</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="gas station added">
+      <created>1590633963462</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1590633963462</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +541,8 @@
     <MESSAGE value="243,244,245 Shortest Word Distance added" />
     <MESSAGE value="LC227 added" />
     <MESSAGE value="LC26 and 27 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC26 and 27 added" />
+    <MESSAGE value="gas station added" />
+    <option name="LAST_COMMIT_MESSAGE" value="gas station added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -564,10 +572,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-923" y="280" key="CommitChangelistDialog2" timestamp="1590626985418">
+    <state x="-923" y="280" key="CommitChangelistDialog2" timestamp="1590633963196">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1590626985418" />
+    <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1590633963196" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589772285100" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
       <screen x="0" y="0" width="1920" height="1040" />
