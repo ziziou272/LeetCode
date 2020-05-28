@@ -3,15 +3,42 @@ package SlidingWindowTwoPointer;
 import com.main.ListNode;
 
 /**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
+ * 这个solution要简洁很多
  */
+class Solution82Better {
+    public ListNode deleteDuplicates(ListNode head) {
+        if(head == null || head.next == null) return head;
+        ListNode dummy = new ListNode(0);
+        ListNode d = dummy, prev = head, cur = head.next;
+        while(cur != null){
+            while(cur != null && cur.val == prev.val){
+                cur = cur.next;
+            }
+            if(prev.next == cur){
+                d.next = prev;
+                d = d.next;
+            }
+            prev = cur;
+        }
+        d.next = null;
+        return dummy.next;
+    }
+}
+/*
+dummy.next = head
+          d
+d 1 1 1 2 2 3 4 4 5
+              i
+                  j
+[i,j)
+    while same
+        j++
+    if(i.next == j)
+        dummy.next = j;
+        dummy = dummy.next
+    i = j
+dummy.next = null
+*/
 class Solution82 {
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null || head.next == null) return head;
