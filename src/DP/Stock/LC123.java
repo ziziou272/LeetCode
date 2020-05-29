@@ -1,4 +1,5 @@
-package DP;
+package DP.Stock;
+
 
 public class LC123 {
 }
