@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DP/LC123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Stock/LC123.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP/Stock/asMany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Stock/asMany.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +323,7 @@
       <workItem from="1590626464083" duration="4170000" />
       <workItem from="1590681073697" duration="674000" />
       <workItem from="1590778127990" duration="138000" />
-      <workItem from="1590778292803" duration="1456000" />
+      <workItem from="1590778292803" duration="2220000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -535,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590782724651</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="stock updated k tanscations">
+      <created>1590782795979</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1590782795979</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +561,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LC47 permutation updated faster solution" />
     <MESSAGE value="revised LC90 subset2" />
     <MESSAGE value="LC216 Combinations SumIII revised" />
     <MESSAGE value="LC300 Longest Increasing Subsequence added" />
@@ -579,7 +585,8 @@
     <MESSAGE value="LC82 added" />
     <MESSAGE value="sort color updated" />
     <MESSAGE value="stock updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="stock updated" />
+    <MESSAGE value="stock updated k tanscations" />
+    <option name="LAST_COMMIT_MESSAGE" value="stock updated k tanscations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -605,10 +612,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-923" y="280" key="CommitChangelistDialog2" timestamp="1590782724141">
+    <state x="-923" y="280" key="CommitChangelistDialog2" timestamp="1590782795618">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1590782724141" />
+    <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1590782795618" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589772285100" />
     <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.23.1920.1057@-1280.280.1280.800" timestamp="1590645116871" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
