@@ -28,3 +28,48 @@ public class LC424 {
         return res;
     }
 }
+class Solution424 {
+    public int characterReplacement(String s, int k) {
+        if(s == null) return 0;
+        if(s.length() <= k) return s.length();
+        int i = 0, j = 0;
+        int n = 0, max = 0;
+        int[] map = new int[26];
+        while(j < s.length()){
+            char cur = s.charAt(j);
+            n = Math.max(n, ++map[cur - 'A']);
+            if(j - i + 1 - n > k){
+                map[s.charAt(i++) - 'A']--;
+            }
+            j++;
+            max = Math.max(max, j - i);
+        }
+        return max;
+    }
+}
+/*
+len:  repeat chars + others
+           n            k
+
+[i,j)-> j - i
+k=2
+
+int[]map 1 0 5 2...
+ABBAACCACCDCD
+      i
+            j
+
+n: 4 -> A
+others: j - i - n > k?
+
+update max
+1. findMax(int[] map) -> travese map find max -> o(26) -> o(1)
+2. when not valid, our target is changed to find a repeate number that has n+1 count in range i to j
+there may in some scenerio is not valid during find n+1, but does not matter
+
+
+
+AAAXX -> n +k
+AAXXAA
+
+*/
