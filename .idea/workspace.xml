@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindowTwoPointer/LC424.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindowTwoPointer/LC424.java" afterDir="false" />
-    </list>
+    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -325,7 +322,7 @@
       <workItem from="1590681073697" duration="674000" />
       <workItem from="1590778127990" duration="138000" />
       <workItem from="1590778292803" duration="2262000" />
-      <workItem from="1590965128528" duration="266000" />
+      <workItem from="1590965128528" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -551,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590784211202</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="LC424 updated">
+      <created>1590966439312</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1590966439312</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +574,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LC216 Combinations SumIII revised" />
     <MESSAGE value="LC300 Longest Increasing Subsequence added" />
     <MESSAGE value="alg lec1 and lec2 added" />
     <MESSAGE value="alg lec1 and lec2 added, bug fixed" />
@@ -595,7 +598,8 @@
     <MESSAGE value="stock updated" />
     <MESSAGE value="stock updated k tanscations" />
     <MESSAGE value="stock updated finally" />
-    <option name="LAST_COMMIT_MESSAGE" value="stock updated finally" />
+    <MESSAGE value="LC424 updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC424 updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -621,10 +625,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-923" y="280" key="CommitChangelistDialog2" timestamp="1590784210905">
+    <state x="-923" y="280" key="CommitChangelistDialog2" timestamp="1590966438452">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1590784210905" />
+    <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1590966438452" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589772285100" />
     <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.23.1920.1057@-1280.280.1280.800" timestamp="1590645116871" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
@@ -761,7 +765,6 @@
     <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1590780182558" />
     <state x="458" y="158" width="1005" height="1004" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1590200784139" />
     <state x="458" y="158" width="1005" height="1004" key="search.everywhere.popup/-1280.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1589492369986" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1582157428814" />
     <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562418707" />
     <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1584741394696" />
     <state x="458" y="167" width="1005" height="913" key="search.everywhere.popup/0.23.1920.985@0.23.1920.985" timestamp="1583019556906" />
