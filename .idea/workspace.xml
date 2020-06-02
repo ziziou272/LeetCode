@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="" />
+    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BFS/LC317shortestFofAllBuildings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BFS/LC317shortestFofAllBuildings.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -323,7 +326,7 @@
       <workItem from="1590778127990" duration="138000" />
       <workItem from="1590778292803" duration="2262000" />
       <workItem from="1590965128528" duration="772000" />
-      <workItem from="1591037505551" duration="643000" />
+      <workItem from="1591037505551" duration="2029000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -563,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591037589503</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="LC296 added">
+      <created>1591058778893</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1591058778893</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +592,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="alg lec1 and lec2 added" />
     <MESSAGE value="alg lec1 and lec2 added, bug fixed" />
     <MESSAGE value="heap, SortedBinaryTree and DijkstraTest added" />
     <MESSAGE value="5800hw1 updated" />
@@ -607,7 +616,8 @@
     <MESSAGE value="stock updated finally" />
     <MESSAGE value="LC424 updated" />
     <MESSAGE value="LC30 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC30 added" />
+    <MESSAGE value="LC296 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC296 added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -633,10 +643,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-923" y="280" key="CommitChangelistDialog2" timestamp="1591037589119">
+    <state x="-923" y="280" key="CommitChangelistDialog2" timestamp="1591058778583">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591037589119" />
+    <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591058778583" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589772285100" />
     <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.23.1920.1057@-1280.280.1280.800" timestamp="1590645116871" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
@@ -767,10 +777,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="504" y="23" width="1131" height="877" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562615125" />
-    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup" timestamp="1590780182558">
+    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup" timestamp="1591058785303">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1590780182558" />
+    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591058785303" />
     <state x="458" y="158" width="1005" height="1004" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1590200784139" />
     <state x="458" y="158" width="1005" height="1004" key="search.everywhere.popup/-1280.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1589492369986" />
     <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562418707" />
