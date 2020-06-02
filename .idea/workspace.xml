@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Stack/LC739.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BFS/LC317shortestFofAllBuildings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BFS/LC317shortestFofAllBuildings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +326,8 @@
       <workItem from="1590778127990" duration="138000" />
       <workItem from="1590778292803" duration="2262000" />
       <workItem from="1590965128528" duration="772000" />
-      <workItem from="1591037505551" duration="2029000" />
+      <workItem from="1591037505551" duration="2142000" />
+      <workItem from="1591124296309" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -573,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591058778893</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="LC317 updated">
+      <created>1591070399067</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1591070399067</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +600,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="alg lec1 and lec2 added, bug fixed" />
     <MESSAGE value="heap, SortedBinaryTree and DijkstraTest added" />
     <MESSAGE value="5800hw1 updated" />
     <MESSAGE value="bitOperation package rename" />
@@ -617,7 +624,8 @@
     <MESSAGE value="LC424 updated" />
     <MESSAGE value="LC30 added" />
     <MESSAGE value="LC296 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC296 added" />
+    <MESSAGE value="LC317 updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC317 updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -643,10 +651,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-923" y="280" key="CommitChangelistDialog2" timestamp="1591058778583">
+    <state x="-786" y="280" key="CommitChangelistDialog2" timestamp="1591070398799">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591058778583" />
+    <state x="-786" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591070398799" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589772285100" />
     <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.23.1920.1057@-1280.280.1280.800" timestamp="1590645116871" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
