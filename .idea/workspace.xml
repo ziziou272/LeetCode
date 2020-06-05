@@ -20,49 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/LC1064.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS/LC1029.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stringAndArray/LC31.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/BFS/LC317shortestFofAllBuildings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/BFS/LC317shortestFofAllBuildings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/META-INF/LeetcodeJavaCode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/LC1052GrumpyBookstoreOwner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/LC134.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/LC159.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/LC259.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/LC325MaximumSizeSubarraySumEqualsk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/LC340.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/LC340minHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/LC3slidingWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/LC424.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/LC713SubarrayProductLessThanK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/LC76.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/LC76revised.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/SlidingWindow/solutionV1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC12Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC136.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC136bit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC13Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC190BitSolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC190BitSolution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC191S1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC213BitSolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC217HashSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC217Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC219.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC219HashTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC219HashTableSo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC220BalacnedTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC231S1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/LC318.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/Lc191S2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/Lc192S3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/bitOperationDuplicate/bitOperationCheckUnique.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/com/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/com/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/stringAndArray/LC75.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/stringAndArray/LC75.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -370,7 +329,8 @@
       <workItem from="1591037505551" duration="2142000" />
       <workItem from="1591124296309" duration="1028000" />
       <workItem from="1591134967500" duration="1553000" />
-      <workItem from="1591224281336" duration="1321000" />
+      <workItem from="1591224281336" duration="1338000" />
+      <workItem from="1591313995573" duration="278000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -638,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591133317886</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add 1064">
+      <created>1591235232464</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1591235232464</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,7 +624,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bitOperation package rename" />
     <MESSAGE value="LC156 newer solution but Same method/approach" />
     <MESSAGE value="edit distance o(n) solution" />
     <MESSAGE value="LC668 was added" />
@@ -682,7 +648,8 @@
     <MESSAGE value="LC317 updated" />
     <MESSAGE value="LC739 added" />
     <MESSAGE value="LC36 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC36 added" />
+    <MESSAGE value="add 1064" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 1064" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -708,10 +675,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-923" y="280" key="CommitChangelistDialog2" timestamp="1591133317605">
+    <state x="-786" y="280" key="CommitChangelistDialog2" timestamp="1591235231284">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-786" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591124380427" />
+    <state x="-786" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591235231284" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589772285100" />
     <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.23.1920.1057@-1280.280.1280.800" timestamp="1591133317605" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
