@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stringAndArray/LC31.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/LC334.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/LC334.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,7 +330,7 @@
       <workItem from="1591124296309" duration="1028000" />
       <workItem from="1591134967500" duration="1553000" />
       <workItem from="1591224281336" duration="1338000" />
-      <workItem from="1591313995573" duration="278000" />
+      <workItem from="1591313995573" duration="1226000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -605,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591235232464</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="lc31 added">
+      <created>1591315208806</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1591315208806</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +631,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LC156 newer solution but Same method/approach" />
     <MESSAGE value="edit distance o(n) solution" />
     <MESSAGE value="LC668 was added" />
     <MESSAGE value="LC207 modified" />
@@ -649,7 +655,8 @@
     <MESSAGE value="LC739 added" />
     <MESSAGE value="LC36 added" />
     <MESSAGE value="add 1064" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 1064" />
+    <MESSAGE value="lc31 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="lc31 added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -675,10 +682,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-786" y="280" key="CommitChangelistDialog2" timestamp="1591235231284">
+    <state x="-786" y="280" key="CommitChangelistDialog2" timestamp="1591315208272">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-786" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591235231284" />
+    <state x="-786" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591315208272" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589772285100" />
     <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.23.1920.1057@-1280.280.1280.800" timestamp="1591133317605" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
@@ -813,10 +820,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="504" y="23" width="1131" height="877" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562615125" />
-    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup" timestamp="1591058785303">
+    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup" timestamp="1591323133289">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591058785303" />
+    <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591323133289" />
     <state x="458" y="158" width="1005" height="1004" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1590200784139" />
     <state x="458" y="158" width="1005" height="1004" key="search.everywhere.popup/-1280.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1589492369986" />
     <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562418707" />
@@ -1115,46 +1122,6 @@
           <url>file://$PROJECT_DIR$/src/stringAndArray/LC1sortBinarySearch.java</url>
           <line>14</line>
           <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/LC334.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/LC334.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/LC334.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/LC334.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/LC334.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/LC334.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/LC334.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="133" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinarySearch/LC334.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/stringAndArray/LC5.java</url>
