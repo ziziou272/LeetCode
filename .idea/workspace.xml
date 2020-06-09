@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Design/LC528randomPickWithWeight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,7 +332,10 @@
       <workItem from="1591224281336" duration="1338000" />
       <workItem from="1591313995573" duration="1304000" />
       <workItem from="1591330978301" duration="867000" />
-      <workItem from="1591376966622" duration="122000" />
+      <workItem from="1591376966622" duration="718000" />
+      <workItem from="1591404175811" duration="328000" />
+      <workItem from="1591657036171" duration="309000" />
+      <workItem from="1591741149358" duration="513000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -621,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591324054319</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Add LC528 Random Pick with Weight">
+      <created>1591377117015</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1591377117015</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +650,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LC668 was added" />
     <MESSAGE value="LC207 modified" />
     <MESSAGE value="LC11 added" />
     <MESSAGE value="3sum wiht helper function added" />
@@ -665,7 +674,8 @@
     <MESSAGE value="add 1064" />
     <MESSAGE value="lc31 added" />
     <MESSAGE value="LC334 modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC334 modified" />
+    <MESSAGE value="Add LC528 Random Pick with Weight" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add LC528 Random Pick with Weight" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -691,10 +701,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-786" y="280" key="CommitChangelistDialog2" timestamp="1591324053596">
+    <state x="-786" y="280" key="CommitChangelistDialog2" timestamp="1591377116615">
       <screen x="-1280" y="280" width="1280" height="800" />
     </state>
-    <state x="-786" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591324053596" />
+    <state x="-786" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591377116615" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589772285100" />
     <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.23.1920.1057@-1280.280.1280.800" timestamp="1591133317605" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
