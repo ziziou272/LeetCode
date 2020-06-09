@@ -1,4 +1,4 @@
-package Design;
+package Possibility;
 
 import java.util.Random;
 
