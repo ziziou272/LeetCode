@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Iterator/LC173BSTIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stringAndArray/LC468validateIPAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator/LC281ZigzagIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +91,20 @@
       <recent name="$PROJECT_DIR$/src/Sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.LC281ZigzagIterator">
+    <configuration name="LC281ZigzagIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Iterator.LC281ZigzagIterator" />
+      <module name="LeetcodeJavaCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LC2Sorting (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AlgSun.LC2Sorting" />
       <module name="LeetcodeJavaCode" />
@@ -129,19 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RodCutting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Alg.DP1.RodCutting" />
-      <module name="LeetcodeJavaCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Alg.DP1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SolutionWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SolutionWay" />
       <module name="LeetcodeJavaCode" />
@@ -164,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC281ZigzagIterator" />
         <item itemvalue="Application.hw1Q4" />
         <item itemvalue="Application.LC2Sorting (1)" />
         <item itemvalue="Application.LC2Sorting" />
         <item itemvalue="Application.SolutionWay" />
-        <item itemvalue="Application.RodCutting" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +339,7 @@
       <workItem from="1591741149358" duration="2731000" />
       <workItem from="1592244605713" duration="1031000" />
       <workItem from="1592257322145" duration="218000" />
-      <workItem from="1592331224918" duration="2409000" />
+      <workItem from="1592331224918" duration="4390000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -657,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592257442740</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Add LC173BSTIterator.java">
+      <created>1592358583033</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1592358583033</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,7 +682,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3sum Closet added" />
     <MESSAGE value="243,244,245 Shortest Word Distance added" />
     <MESSAGE value="LC227 added" />
     <MESSAGE value="LC26 and 27 added" />
@@ -701,7 +706,8 @@
     <MESSAGE value="Add LC384 Shuffle an Array" />
     <MESSAGE value="Add LC398randomPickIndex" />
     <MESSAGE value="Correct LC380.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct LC380.java" />
+    <MESSAGE value="Add LC173BSTIterator.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add LC173BSTIterator.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -722,7 +728,7 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="294" y="0" key="CommitChangelistDialog2" timestamp="1592257441868">
+    <state x="294" y="0" key="CommitChangelistDialog2" timestamp="1592358581809">
       <screen x="0" y="0" width="1080" height="1920" />
     </state>
     <state x="-786" y="146" key="CommitChangelistDialog2/-1280.146.1280.800/0.0.1920.1080@-1280.146.1280.800" timestamp="1591741831239" />
@@ -730,7 +736,7 @@
     <state x="-786" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591377116615" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589772285100" />
     <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.23.1920.1057@-1280.280.1280.800" timestamp="1591133317605" />
-    <state x="294" y="0" key="CommitChangelistDialog2/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592257441868" />
+    <state x="294" y="0" key="CommitChangelistDialog2/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592358581809" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
