@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Iterator/LC284PeekingIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/com/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/com/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Iterator/deDuplicateIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iterator/deDuplicateIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,7 +340,7 @@
       <workItem from="1592244605713" duration="1031000" />
       <workItem from="1592257322145" duration="218000" />
       <workItem from="1592331224918" duration="5051000" />
-      <workItem from="1592421450726" duration="5019000" />
+      <workItem from="1592421450726" duration="5447000" />
     </task>
     <task id="LOCAL-00001" summary="LC261dfs added">
       <created>1588650701408</created>
@@ -680,7 +678,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592430050231</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Add deDuplicateIterator.java">
+      <created>1592434456711</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1592434456711</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -699,7 +704,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LC26 and 27 added" />
     <MESSAGE value="gas station added" />
     <MESSAGE value="remove duplicate form sorted array LC80 added." />
     <MESSAGE value="LC88 added" />
@@ -724,7 +728,8 @@
     <MESSAGE value="Add LC173BSTIterator.java" />
     <MESSAGE value="Add LC281ZigzagIterator.java" />
     <MESSAGE value="Add LC341FlatternNestedListIterator.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add LC341FlatternNestedListIterator.java" />
+    <MESSAGE value="Add deDuplicateIterator.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add deDuplicateIterator.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -746,7 +751,7 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="-1397" y="391" key="CommitChangelistDialog2" timestamp="1592430049167">
+    <state x="-1397" y="391" key="CommitChangelistDialog2" timestamp="1592434455680">
       <screen x="-1920" y="391" width="1920" height="1080" />
     </state>
     <state x="-786" y="146" key="CommitChangelistDialog2/-1280.146.1280.800/0.0.1920.1080@-1280.146.1280.800" timestamp="1591741831239" />
@@ -754,14 +759,14 @@
     <state x="-786" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591377116615" />
     <state x="569" y="141" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1589772285100" />
     <state x="-923" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.23.1920.1057@-1280.280.1280.800" timestamp="1591133317605" />
-    <state x="-1397" y="391" key="CommitChangelistDialog2/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592430049167" />
+    <state x="-1397" y="391" key="CommitChangelistDialog2/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592434455680" />
     <state x="294" y="0" key="CommitChangelistDialog2/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592360660957" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="768" y="307" key="FileChooserDialogImpl/0.0.1920.1040/-1920.905.1536.824@0.0.1920.1040" timestamp="1588986530261" />
     <state x="878" y="352" key="FileChooserDialogImpl/0.0.2194.1194@0.0.2194.1194" timestamp="1588981474072" />
-    <state width="1878" height="289" key="GridCell.Tab.0.bottom" timestamp="1592432347742">
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom" timestamp="1592434461593">
       <screen x="-1920" y="391" width="1920" height="1080" />
     </state>
     <state width="793" height="154" key="GridCell.Tab.0.bottom/-1280.0.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1584414309126" />
@@ -770,7 +775,7 @@
     <state width="1238" height="202" key="GridCell.Tab.0.bottom/-1280.280.1280.800/0.23.1920.1057@-1280.280.1280.800" timestamp="1591149654601" />
     <state width="1878" height="263" key="GridCell.Tab.0.bottom/-1280.303.1280.777/0.0.1920.1008@0.0.1920.1008" timestamp="1588906188541" />
     <state width="1238" height="222" key="GridCell.Tab.0.bottom/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1588915729318" />
-    <state width="1878" height="289" key="GridCell.Tab.0.bottom/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592432347742" />
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592434461593" />
     <state width="1038" height="554" key="GridCell.Tab.0.bottom/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592361564601" />
     <state width="1878" height="176" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1584561583464" />
     <state width="1878" height="615" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584944878453" />
@@ -778,7 +783,7 @@
     <state width="1878" height="500" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587872649833" />
     <state width="2151" height="333" key="GridCell.Tab.0.bottom/0.0.2194.1194/-1920.905.1536.824@0.0.2194.1194" timestamp="1588982237126" />
     <state width="2151" height="333" key="GridCell.Tab.0.bottom/0.0.2194.1194@0.0.2194.1194" timestamp="1588981803464" />
-    <state width="1878" height="289" key="GridCell.Tab.0.center" timestamp="1592432347740">
+    <state width="1878" height="289" key="GridCell.Tab.0.center" timestamp="1592434461589">
       <screen x="-1920" y="391" width="1920" height="1080" />
     </state>
     <state width="793" height="154" key="GridCell.Tab.0.center/-1280.0.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1584414309123" />
@@ -787,7 +792,7 @@
     <state width="1238" height="202" key="GridCell.Tab.0.center/-1280.280.1280.800/0.23.1920.1057@-1280.280.1280.800" timestamp="1591149654599" />
     <state width="1878" height="263" key="GridCell.Tab.0.center/-1280.303.1280.777/0.0.1920.1008@0.0.1920.1008" timestamp="1588906188537" />
     <state width="1238" height="222" key="GridCell.Tab.0.center/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1588915729317" />
-    <state width="1878" height="289" key="GridCell.Tab.0.center/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592432347740" />
+    <state width="1878" height="289" key="GridCell.Tab.0.center/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592434461589" />
     <state width="1038" height="554" key="GridCell.Tab.0.center/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592361564598" />
     <state width="1878" height="176" key="GridCell.Tab.0.center/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1584561583463" />
     <state width="1878" height="615" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584944878451" />
@@ -795,7 +800,7 @@
     <state width="1878" height="500" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587872649832" />
     <state width="2151" height="333" key="GridCell.Tab.0.center/0.0.2194.1194/-1920.905.1536.824@0.0.2194.1194" timestamp="1588982237126" />
     <state width="2151" height="333" key="GridCell.Tab.0.center/0.0.2194.1194@0.0.2194.1194" timestamp="1588981803463" />
-    <state width="1878" height="289" key="GridCell.Tab.0.left" timestamp="1592432347737">
+    <state width="1878" height="289" key="GridCell.Tab.0.left" timestamp="1592434461587">
       <screen x="-1920" y="391" width="1920" height="1080" />
     </state>
     <state width="793" height="154" key="GridCell.Tab.0.left/-1280.0.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1584414309122" />
@@ -804,7 +809,7 @@
     <state width="1238" height="202" key="GridCell.Tab.0.left/-1280.280.1280.800/0.23.1920.1057@-1280.280.1280.800" timestamp="1591149654598" />
     <state width="1878" height="263" key="GridCell.Tab.0.left/-1280.303.1280.777/0.0.1920.1008@0.0.1920.1008" timestamp="1588906188535" />
     <state width="1238" height="222" key="GridCell.Tab.0.left/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1588915729316" />
-    <state width="1878" height="289" key="GridCell.Tab.0.left/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592432347737" />
+    <state width="1878" height="289" key="GridCell.Tab.0.left/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592434461587" />
     <state width="1038" height="554" key="GridCell.Tab.0.left/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592361564596" />
     <state width="1878" height="176" key="GridCell.Tab.0.left/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1584561583462" />
     <state width="1878" height="615" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584944878449" />
@@ -812,7 +817,7 @@
     <state width="1878" height="500" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587872649831" />
     <state width="2151" height="333" key="GridCell.Tab.0.left/0.0.2194.1194/-1920.905.1536.824@0.0.2194.1194" timestamp="1588982237126" />
     <state width="2151" height="333" key="GridCell.Tab.0.left/0.0.2194.1194@0.0.2194.1194" timestamp="1588981803463" />
-    <state width="1878" height="289" key="GridCell.Tab.0.right" timestamp="1592432347741">
+    <state width="1878" height="289" key="GridCell.Tab.0.right" timestamp="1592434461591">
       <screen x="-1920" y="391" width="1920" height="1080" />
     </state>
     <state width="793" height="154" key="GridCell.Tab.0.right/-1280.0.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1584414309124" />
@@ -821,7 +826,7 @@
     <state width="1238" height="202" key="GridCell.Tab.0.right/-1280.280.1280.800/0.23.1920.1057@-1280.280.1280.800" timestamp="1591149654600" />
     <state width="1878" height="263" key="GridCell.Tab.0.right/-1280.303.1280.777/0.0.1920.1008@0.0.1920.1008" timestamp="1588906188539" />
     <state width="1238" height="222" key="GridCell.Tab.0.right/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1588915729318" />
-    <state width="1878" height="289" key="GridCell.Tab.0.right/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592432347741" />
+    <state width="1878" height="289" key="GridCell.Tab.0.right/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592434461591" />
     <state width="1038" height="554" key="GridCell.Tab.0.right/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592361564600" />
     <state width="1878" height="176" key="GridCell.Tab.0.right/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1584561583464" />
     <state width="1878" height="615" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584944878452" />
