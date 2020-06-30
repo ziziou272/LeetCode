@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DP/KnapsackProblem/LC416knapsackSimliar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/com/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/com/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP/LC518DP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/KnapsackProblem/LC518DP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP/LC518dfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/KnapsackProblem/LC518dfs.java" afterDir="false" />
-    </list>
+    <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -347,14 +341,7 @@
       <workItem from="1592504012932" duration="1002000" />
       <workItem from="1593278618080" duration="963000" />
       <workItem from="1593327691527" duration="287000" />
-      <workItem from="1593486038459" duration="1372000" />
-    </task>
-    <task id="LOCAL-00004" summary="lc450 modified">
-      <created>1588737219137</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1588737219137</updated>
+      <workItem from="1593486038459" duration="2229000" />
     </task>
     <task id="LOCAL-00005" summary="LC1328">
       <created>1588741382364</created>
@@ -692,7 +679,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593279887733</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Add 2 knapsack problem">
+      <created>1593487749515</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1593487749516</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +705,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LC82 added" />
     <MESSAGE value="sort color updated" />
     <MESSAGE value="stock updated" />
     <MESSAGE value="stock updated k tanscations" />
@@ -736,7 +729,8 @@
     <MESSAGE value="Add LC284PeekingIterator.java" />
     <MESSAGE value="Add H-index" />
     <MESSAGE value="Update Leetcode 220 Bucket Sort Solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Leetcode 220 Bucket Sort Solution" />
+    <MESSAGE value="Add 2 knapsack problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 2 knapsack problem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -758,8 +752,8 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="294" y="23" key="CommitChangelistDialog2" timestamp="1593279887236">
-      <screen x="55" y="23" width="1025" height="1897" />
+    <state x="252" y="23" key="CommitChangelistDialog2" timestamp="1593487747686">
+      <screen x="0" y="23" width="1080" height="1897" />
     </state>
     <state x="-786" y="146" key="CommitChangelistDialog2/-1280.146.1280.800/0.0.1920.1080@-1280.146.1280.800" timestamp="1591741831239" />
     <state x="741" y="0" key="CommitChangelistDialog2/-1280.146.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1591744020798" />
@@ -769,6 +763,7 @@
     <state x="-1397" y="391" key="CommitChangelistDialog2/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592434455680" />
     <state x="294" y="0" key="CommitChangelistDialog2/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592504735075" />
     <state x="294" y="0" key="CommitChangelistDialog2/-1920.414.1920.1057/0.0.1080.1920@0.0.1080.1920" timestamp="1592444693467" />
+    <state x="252" y="23" key="CommitChangelistDialog2/0.23.1080.1897/1080.361.1920.1057@0.23.1080.1897" timestamp="1593487747686" />
     <state x="294" y="23" key="CommitChangelistDialog2/1080.418.1920.1057/55.23.1025.1897@55.23.1025.1897" timestamp="1593279887236" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -914,7 +909,6 @@
     <state x="458" y="158" width="1005" height="1004" key="search.everywhere.popup/-1280.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1589492369986" />
     <state x="257" y="281" width="670" height="1784" key="search.everywhere.popup/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592504082290" />
     <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562418707" />
-    <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1584741394696" />
     <state x="299" y="301" width="670" height="1763" key="search.everywhere.popup/1080.418.1920.1057/55.23.1025.1897@55.23.1025.1897" timestamp="1593279802872" />
   </component>
   <component name="XDebuggerManager">
