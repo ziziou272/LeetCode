@@ -1,4 +1,4 @@
-package DP;
+package DP.KnapsackProblem;
 
 public class LC518DP {
     public int change(int amount, int[] coins) {
