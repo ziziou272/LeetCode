@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DP/LC264UglyNumber2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/LC315TreeWithSizeEntry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,14 +346,7 @@
       <workItem from="1593486038459" duration="2289000" />
       <workItem from="1593625370397" duration="1229000" />
       <workItem from="1593718690467" duration="795000" />
-      <workItem from="1593898174855" duration="1551000" />
-    </task>
-    <task id="LOCAL-00008" summary="LC216 Combinations SumIII revised">
-      <created>1588801779186</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1588801779186</updated>
+      <workItem from="1593898174855" duration="2137000" />
     </task>
     <task id="LOCAL-00009" summary="LC300 Longest Increasing Subsequence added">
       <created>1588915670931</created>
@@ -692,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593719516908</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Add ugly number">
+      <created>1593915695285</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1593915695288</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +710,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stock updated finally" />
     <MESSAGE value="LC424 updated" />
     <MESSAGE value="LC30 added" />
     <MESSAGE value="LC296 added" />
@@ -736,7 +734,8 @@
     <MESSAGE value="Add 1 knapsack problem" />
     <MESSAGE value="Add leetcode 441" />
     <MESSAGE value="Add CompleteKnapsack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add CompleteKnapsack" />
+    <MESSAGE value="Add ugly number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ugly number" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -758,7 +757,7 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1593719515757">
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1593915694448">
       <screen x="0" y="0" width="1080" height="1920" />
     </state>
     <state x="-786" y="146" key="CommitChangelistDialog2/-1280.146.1280.800/0.0.1920.1080@-1280.146.1280.800" timestamp="1591741831239" />
@@ -771,6 +770,7 @@
     <state x="294" y="0" key="CommitChangelistDialog2/-1920.414.1920.1057/0.0.1080.1920@0.0.1080.1920" timestamp="1592444693467" />
     <state x="252" y="0" key="CommitChangelistDialog2/0.0.1080.1920/1080.338.1920.1080@0.0.1080.1920" timestamp="1593719515757" />
     <state x="252" y="23" key="CommitChangelistDialog2/0.23.1080.1897/1080.361.1920.1057@0.23.1080.1897" timestamp="1593625556455" />
+    <state x="252" y="0" key="CommitChangelistDialog2/1080.338.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1593915694448" />
     <state x="294" y="23" key="CommitChangelistDialog2/1080.418.1920.1057/55.23.1025.1897@55.23.1025.1897" timestamp="1593279887236" />
     <state x="768" y="307" key="FileChooserDialogImpl" timestamp="1588986530261">
       <screen x="0" y="0" width="1920" height="1040" />
