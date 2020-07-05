@@ -1,10 +1,14 @@
 package Tree;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class LC315TreeWithSizeEntry {
     public List<Integer> countSmaller(int[] nums) {
         int len = nums.length;
         List<Integer> counts = new ArrayList<>();
-        if(nums == null || nums.length == 0) return counts;
+        if(nums.length == 0) return counts;
         TreeNode root = new TreeNode(nums[len-1]);
         counts.add(0);
         for(int i = len - 2; i >= 0; i--){
