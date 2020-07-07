@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/LC1110.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,14 +348,7 @@
       <workItem from="1593718690467" duration="795000" />
       <workItem from="1593898174855" duration="3817000" />
       <workItem from="1594061991478" duration="1595000" />
-      <workItem from="1594088162359" duration="827000" />
-    </task>
-    <task id="LOCAL-00013" summary="5800hw1 updated">
-      <created>1589340923062</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1589340923062</updated>
+      <workItem from="1594088162359" duration="1066000" />
     </task>
     <task id="LOCAL-00014" summary="bitOperation package rename">
       <created>1589492497603</created>
@@ -693,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594072932454</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Add LC329. Longest Increasing Path in a Matrix">
+      <created>1594091379099</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1594091379105</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -794,7 +794,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LC317 updated" />
     <MESSAGE value="LC739 added" />
     <MESSAGE value="LC36 added" />
     <MESSAGE value="add 1064" />
@@ -819,7 +818,8 @@
     <MESSAGE value="Add LC315TreeWithSizeEntry" />
     <MESSAGE value="Add addTwoNumberWithoutPlus.java" />
     <MESSAGE value="Add LC29DivideTwoNumbers.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add LC29DivideTwoNumbers.java" />
+    <MESSAGE value="Add LC329. Longest Increasing Path in a Matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add LC329. Longest Increasing Path in a Matrix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -841,7 +841,7 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1594072931790">
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1594091377953">
       <screen x="0" y="0" width="1080" height="1920" />
     </state>
     <state x="-786" y="146" key="CommitChangelistDialog2/-1280.146.1280.800/0.0.1920.1080@-1280.146.1280.800" timestamp="1591741831239" />
@@ -852,7 +852,7 @@
     <state x="-1397" y="391" key="CommitChangelistDialog2/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592434455680" />
     <state x="294" y="0" key="CommitChangelistDialog2/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592504735075" />
     <state x="294" y="0" key="CommitChangelistDialog2/-1920.414.1920.1057/0.0.1080.1920@0.0.1080.1920" timestamp="1592444693467" />
-    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1080.1920/1080.338.1920.1080@0.0.1080.1920" timestamp="1593719515757" />
+    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1080.1920/1080.338.1920.1080@0.0.1080.1920" timestamp="1594091377953" />
     <state x="1528" y="338" key="CommitChangelistDialog2/0.0.1080.1920/1080.338.1920.1080@1080.338.1920.1080" timestamp="1594062613671" />
     <state x="252" y="0" key="CommitChangelistDialog2/0.0.1080.1920/1080.361.1920.1057@0.0.1080.1920" timestamp="1594072931790" />
     <state x="252" y="23" key="CommitChangelistDialog2/0.23.1080.1897/1080.361.1920.1057@0.23.1080.1897" timestamp="1593625556455" />
