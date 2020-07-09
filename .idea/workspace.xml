@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kproblem/LC973.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kproblem/LC973.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,14 +350,7 @@
       <workItem from="1593898174855" duration="3817000" />
       <workItem from="1594061991478" duration="1595000" />
       <workItem from="1594088162359" duration="1182000" />
-      <workItem from="1594251106076" duration="652000" />
-    </task>
-    <task id="LOCAL-00015" summary="LC156 newer solution but Same method/approach">
-      <created>1589495193296</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1589495193296</updated>
+      <workItem from="1594251106076" duration="3000000" />
     </task>
     <task id="LOCAL-00016" summary="edit distance o(n) solution">
       <created>1589664217306</created>
@@ -694,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594096861742</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Add 1249. Minimum Remove to Make Valid Parentheses">
+      <created>1594253947052</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1594253947053</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,7 +796,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LC36 added" />
     <MESSAGE value="add 1064" />
     <MESSAGE value="lc31 added" />
     <MESSAGE value="LC334 modified" />
@@ -820,7 +820,8 @@
     <MESSAGE value="Add LC29DivideTwoNumbers.java" />
     <MESSAGE value="Add LC329. Longest Increasing Path in a Matrix" />
     <MESSAGE value="Add 1110. Delete Nodes And Return Forest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 1110. Delete Nodes And Return Forest" />
+    <MESSAGE value="Add 1249. Minimum Remove to Make Valid Parentheses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 1249. Minimum Remove to Make Valid Parentheses" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -828,11 +829,12 @@
     </state>
     <state x="506" y="149" key="#Project_Structure/0.0.1920.1040/-1920.905.1536.824@0.0.1920.1040" timestamp="1588986590652" />
     <state x="578" y="171" key="#Project_Structure/0.0.2194.1194@0.0.2194.1194" timestamp="1588981483626" />
-    <state x="-1147" y="647" key="#com.intellij.ide.util.MemberChooser" timestamp="1592430241802">
-      <screen x="-1920" y="391" width="1920" height="1080" />
+    <state x="435" y="455" key="#com.intellij.ide.util.MemberChooser" timestamp="1594261505484">
+      <screen x="0" y="0" width="1080" height="1920" />
     </state>
     <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1586738546847" />
     <state x="-1147" y="647" key="#com.intellij.ide.util.MemberChooser/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592430241802" />
+    <state x="435" y="455" key="#com.intellij.ide.util.MemberChooser/0.0.1080.1920/1080.338.1920.1080@0.0.1080.1920" timestamp="1594261505484" />
     <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586562034822" />
     <state x="-787" y="576" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589046545024">
       <screen x="-1280" y="280" width="1280" height="800" />
@@ -842,8 +844,8 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="252" y="23" key="CommitChangelistDialog2" timestamp="1594096860628">
-      <screen x="0" y="23" width="1080" height="1897" />
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1594253946261">
+      <screen x="0" y="0" width="1080" height="1920" />
     </state>
     <state x="-786" y="146" key="CommitChangelistDialog2/-1280.146.1280.800/0.0.1920.1080@-1280.146.1280.800" timestamp="1591741831239" />
     <state x="741" y="0" key="CommitChangelistDialog2/-1280.146.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1591744020798" />
@@ -853,7 +855,7 @@
     <state x="-1397" y="391" key="CommitChangelistDialog2/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592434455680" />
     <state x="294" y="0" key="CommitChangelistDialog2/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592504735075" />
     <state x="294" y="0" key="CommitChangelistDialog2/-1920.414.1920.1057/0.0.1080.1920@0.0.1080.1920" timestamp="1592444693467" />
-    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1080.1920/1080.338.1920.1080@0.0.1080.1920" timestamp="1594091377953" />
+    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1080.1920/1080.338.1920.1080@0.0.1080.1920" timestamp="1594253946261" />
     <state x="1528" y="338" key="CommitChangelistDialog2/0.0.1080.1920/1080.338.1920.1080@1080.338.1920.1080" timestamp="1594062613671" />
     <state x="252" y="0" key="CommitChangelistDialog2/0.0.1080.1920/1080.361.1920.1057@0.0.1080.1920" timestamp="1594072931790" />
     <state x="252" y="23" key="CommitChangelistDialog2/0.23.1080.1897/1080.361.1920.1057@0.23.1080.1897" timestamp="1594096860628" />
@@ -999,14 +1001,15 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="504" y="23" width="1131" height="877" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562615125" />
-    <state x="299" y="301" width="670" height="1763" key="search.everywhere.popup" timestamp="1593279802872">
-      <screen x="55" y="23" width="1025" height="1897" />
+    <state x="257" y="281" width="706" height="1785" key="search.everywhere.popup" timestamp="1594261382005">
+      <screen x="0" y="0" width="1080" height="1920" />
     </state>
     <state x="-975" y="263" width="670" height="743" key="search.everywhere.popup/-1280.146.1280.800/0.0.1920.1080@-1280.146.1280.800" timestamp="1591741982537" />
     <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591323133289" />
     <state x="458" y="158" width="1005" height="1004" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1590200784139" />
     <state x="458" y="158" width="1005" height="1004" key="search.everywhere.popup/-1280.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1589492369986" />
     <state x="257" y="281" width="670" height="1784" key="search.everywhere.popup/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592504082290" />
+    <state x="257" y="281" width="706" height="1785" key="search.everywhere.popup/0.0.1080.1920/1080.338.1920.1080@0.0.1080.1920" timestamp="1594261382005" />
     <state x="458" y="158" width="1005" height="1002" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586562418707" />
     <state x="299" y="301" width="670" height="1763" key="search.everywhere.popup/1080.418.1920.1057/55.23.1025.1897@55.23.1025.1897" timestamp="1593279802872" />
   </component>
