@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kproblem/LC973.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kproblem/LC973.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,14 +349,8 @@
       <workItem from="1593898174855" duration="3817000" />
       <workItem from="1594061991478" duration="1595000" />
       <workItem from="1594088162359" duration="1182000" />
-      <workItem from="1594251106076" duration="3000000" />
-    </task>
-    <task id="LOCAL-00016" summary="edit distance o(n) solution">
-      <created>1589664217306</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1589664217306</updated>
+      <workItem from="1594251106076" duration="3054000" />
+      <workItem from="1594588268692" duration="794000" />
     </task>
     <task id="LOCAL-00017" summary="LC668 was added">
       <created>1589772285776</created>
@@ -695,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594253947053</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Update 973. K Closest Points to Origin 3 methods">
+      <created>1594265475003</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1594265475003</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -796,7 +796,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add 1064" />
     <MESSAGE value="lc31 added" />
     <MESSAGE value="LC334 modified" />
     <MESSAGE value="Add LC528 Random Pick with Weight" />
@@ -821,7 +820,8 @@
     <MESSAGE value="Add LC329. Longest Increasing Path in a Matrix" />
     <MESSAGE value="Add 1110. Delete Nodes And Return Forest" />
     <MESSAGE value="Add 1249. Minimum Remove to Make Valid Parentheses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 1249. Minimum Remove to Make Valid Parentheses" />
+    <MESSAGE value="Update 973. K Closest Points to Origin 3 methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 973. K Closest Points to Origin 3 methods" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="149" key="#Project_Structure" timestamp="1588986590652">
@@ -844,7 +844,7 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1587776263955" />
-    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1594253946261">
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1594265474413">
       <screen x="0" y="0" width="1080" height="1920" />
     </state>
     <state x="-786" y="146" key="CommitChangelistDialog2/-1280.146.1280.800/0.0.1920.1080@-1280.146.1280.800" timestamp="1591741831239" />
@@ -855,7 +855,7 @@
     <state x="-1397" y="391" key="CommitChangelistDialog2/-1920.391.1920.1080/0.0.1080.1920@-1920.391.1920.1080" timestamp="1592434455680" />
     <state x="294" y="0" key="CommitChangelistDialog2/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592504735075" />
     <state x="294" y="0" key="CommitChangelistDialog2/-1920.414.1920.1057/0.0.1080.1920@0.0.1080.1920" timestamp="1592444693467" />
-    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1080.1920/1080.338.1920.1080@0.0.1080.1920" timestamp="1594253946261" />
+    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1080.1920/1080.338.1920.1080@0.0.1080.1920" timestamp="1594265474413" />
     <state x="1528" y="338" key="CommitChangelistDialog2/0.0.1080.1920/1080.338.1920.1080@1080.338.1920.1080" timestamp="1594062613671" />
     <state x="252" y="0" key="CommitChangelistDialog2/0.0.1080.1920/1080.361.1920.1057@0.0.1080.1920" timestamp="1594072931790" />
     <state x="252" y="23" key="CommitChangelistDialog2/0.23.1080.1897/1080.361.1920.1057@0.23.1080.1897" timestamp="1594096860628" />
