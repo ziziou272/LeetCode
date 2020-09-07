@@ -16,6 +16,13 @@ public class ParetnAncestor {
     3   5  8  9
      \ / \     \
       6   7    11
+      | \
+      10 15
+      |   |
+      16  |
+       \  /
+       17
+
 */
         int[][] inputs= {
                 {1, 3},
@@ -39,7 +46,7 @@ public class ParetnAncestor {
         //q2
         boolean res1=sol.hasCommonAncestor(inputs,3,8);
         boolean res2=sol.hasCommonAncestor(inputs,5,8);
-        boolean res3=sol.hasCommonAncestor(inputs,6,1);
+        boolean res3=sol.hasCommonAncestor(inputs,6,11);
         boolean res4=sol.hasCommonAncestor(inputs,6,9);
         boolean res5=sol.hasCommonAncestor(inputs,1,3);
         boolean res6=sol.hasCommonAncestor(inputs,7,11);

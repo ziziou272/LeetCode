@@ -88,3 +88,64 @@ public class LC126wordLadderII {
         return res;
     }
 }
+class BFSSolution126{
+    public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
+        List<List<String>> res = new ArrayList<>();
+        HashSet<String> wordSet = new HashSet<>(wordList);
+        Queue<Vertex> queue = new LinkedList<>();
+        Vertex start = new Vertex(beginWord, new ArrayList<>(Arrays.asList(beginWord)));
+        queue.offer(start);
+        boolean shortest = false;
+        while(!queue.isEmpty()){
+            int size = queue.size();
+            HashSet<String> toBeRemoved = new HashSet<>();
+            while(size-- > 0){
+                Vertex cur = queue.poll();
+                //find end
+                if(cur.word.equals(endWord)){
+                    res.add(new ArrayList<>(cur.path));
+                    shortest = true;
+                }
+                List<String> nexts = getNexts(cur.word, wordSet);
+                for(String str:nexts){
+                    ArrayList<String> path = new ArrayList<>(cur.path);
+                    path.add(str);
+                    toBeRemoved.add(str);
+                    queue.offer(new Vertex(str, path));
+                }
+            }
+            wordSet.removeAll(toBeRemoved);
+            if(shortest) return res;
+        }
+        return res;
+    }
+
+    private List<String> getNexts(String start,HashSet<String> set){
+        //assume the size of dictionary is huge, we try to generate all possible strings instead of traverse the whole dictionary
+        List<String> list = new ArrayList<>();
+        char[] word = start.toCharArray();
+        for(int i = 0; i < word.length; i++){
+            char temp = word[i];
+            //from a to z
+            for(char j = 'a'; j <= 'z'; j++){
+                if(word[i] == j)
+                    continue;
+                word[i] = j;
+                String str = new String(word);
+                if(set.contains(str))
+                    list.add(str);
+                word[i] = temp;
+            }
+        }
+        return list;
+    }
+
+    class Vertex{
+        private String word;
+        private ArrayList<String> path;
+        public Vertex(String word, ArrayList<String> path){
+            this.word = word;
+            this.path = new ArrayList<>(path);
+        }
+    }
+}

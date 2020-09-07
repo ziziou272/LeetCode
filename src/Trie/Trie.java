@@ -1,4 +1,8 @@
 package Trie;
+
+import java.util.ArrayList;
+import java.util.List;
+
 class TrieNode{
     public char ch;
     public TrieNode [] children = new TrieNode[26];
@@ -52,5 +56,44 @@ class Trie {
             cur = cur.children[index];
         }
         return true;
+    }
+
+    public List<String> getClosetWordList(int n, String searchWord){
+        List<String> res = new ArrayList<>();
+        int[] count = new int[1];
+        dfs(searchWord, 0, root, res, count, n, new StringBuilder());
+        return res;
+    }
+
+    private boolean dfs(String searchWord, int index, TrieNode parent, List<String> res, int[] count, int n, StringBuilder sb){
+        if(index == searchWord.length() - 1){
+            findN(parent, res, count, n, sb);
+        }
+        char cur = searchWord.charAt(index);
+        sb.append(cur);
+        if(parent.children[cur] == null)
+            return true;
+        else
+            dfs(searchWord, index+1, parent.children[cur], res, count, n, sb);
+        return false;
+    }
+
+    private boolean findN(TrieNode parent, List<String> res, int[] count, int n, StringBuilder sb){
+        if(count[0] == n)
+            return true;
+        for(int i = 0; i < 26; i++){
+            char cur = (char)('a' + i);
+            if(parent.children[cur] != null) {
+                if(parent.children[cur].isWord){
+                    sb.append(cur);
+                    res.add(sb.toString());
+                    count[0]++;
+                    if(findN(parent.children[cur], res, count, n, sb))
+                        return true;
+                    sb.setLength(sb.length() - 1);
+                }
+            }
+        }
+        return false;
     }
 }

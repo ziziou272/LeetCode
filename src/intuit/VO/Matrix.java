@@ -190,7 +190,7 @@ class solutionMatrix{
             num[0] = temp;
         }
     }
-    //todo: too complicated BFS
+    //todo: BFS
     private List<List<Integer>> shortestPathBFS(int[][] board,
                                                 int[] start, int[] end){
         Queue<int[]> queue = new LinkedList<>();

@@ -30,9 +30,27 @@ public class Domain {
                 "sports.google.co", "20",
                 "yahoo.com"
         };
-
+        String[] str3 = new String[]{
+                "a",
+                "b",
+                "c",
+                "e", "a","c"
+        };
+        String[] str4 = new String[]{
+                "c", "b",
+                "c",
+                "e",
+                "sports.google.co", "20",
+                "yahoo.com"
+        };
+        System.out.println("Q2");
+        System.out.println(findLongest(str1, str2));
+        System.out.println(findLongest(str3, str4));
+        System.out.println("-----------");
         longestCommonHistory sol = new longestCommonHistory();
         System.out.println(Arrays.toString(sol.longest(str1, str2)));
+        System.out.println(Arrays.toString(sol.longest(str3, str4)));
+        System.out.println("-----------");
         //q3:
         String[] usedId = new String[]{
                 "a123",
@@ -45,6 +63,7 @@ public class Domain {
                 "pepsi, 133.345",
                 "coffee, 192.169.2.3",
                 "coffee, 192.169.2.3",
+                "coke, 192.169.2.3",
                 "coke, 123.123",
                 "coke, 123.123",
                 "coke, 123.123",
@@ -63,8 +82,94 @@ public class Domain {
                 "1213.2424,    google2",
                 "192.169.2.3,   20a"
         };
+        System.out.println("Q3");
         purchaseHistory so = new purchaseHistory();
         so.getPurchaseHistory(usedId, product_ip, ip_userId);
+        System.out.println(clickVsPurchase(usedId, product_ip, ip_userId));
+        System.out.println("-----------");
+
+    }
+    public static String[][] subdomainVisits(String[][] cpdomains) {
+        //domain, count
+        HashMap<String, Integer> map = new HashMap<>();
+        for(String[] cpdomain: cpdomains){
+            String [] domains = cpdomain[0].split("\\.");
+            int count = Integer.parseInt(cpdomain[1]);
+            StringBuilder sb = new StringBuilder();
+            for(int i = domains.length - 1; i >= 0; i--){
+                if(i != domains.length - 1)
+                    sb.insert(0, ".");
+                sb.insert(0, domains[i]);
+                String domain = sb.toString();
+                if(map.containsKey(domain))
+                    map.put(domain, map.get(domain) + count);
+                else
+                    map.put(domain, count);
+            }
+        }
+        String[][] res = new String[map.size()][2];
+        int row = 0;
+        for(String key : map.keySet()){
+            res[row][0] = key;
+            res[row][1] = map.get(key).toString();
+            row++;
+        }
+        return res;
+    }
+    public static List<String> findLongest(String[] history1, String[] history2){
+        int len1 = history1.length, len2 = history2.length;
+        int[][] dp = new int[len1][len2];
+        int max = 0;
+        int index = -1;
+        for(int i = 0; i < len1; i++){
+            for(int j = 0; j < len2; j++){
+                if(history1[i].equals(history2[j])){
+                    dp[i][j] = ((i - 1 < 0 || j - 1 < 0) ? 0 : dp[i-1][j-1]) + 1;
+                    if(dp[i][j] > max){
+                        max = dp[i][j];
+                        index = i;
+                    }
+                }
+                else{
+                    dp[i][j] = 0;
+                }
+            }
+        }
+        List<String> res = new LinkedList<>();
+        for(int i = index - max + 1; i <= index; i++){
+            res.add(history1[i]);
+        }
+        return res;
+    }
+
+    public static List<String> clickVsPurchase(String[] userId,  String[] ad_ip, String[] ip_userId ){
+        HashSet<String> userIdSet = new HashSet<>(Arrays.asList(userId));
+        HashSet<String> purchasedIp = new HashSet<>();
+        //use a hashset to store ip address  that made a purchase
+        for(String str : ip_userId){
+            String[] ipAndId = str.split(",\\s+");
+            String ip = ipAndId[0];
+            String id = ipAndId[1];
+            if(userIdSet.contains(id))
+                purchasedIp.add(ip);
+        }
+        HashMap<String, int[]> map = new HashMap<>();
+        for(String str : ad_ip){
+            //split ad and ip
+            String[] adAndIp = str.split(",\\s+");
+            String ad = adAndIp[0];
+            String ip = adAndIp[1];
+            if(!map.containsKey(ad))
+                map.put(ad, new int[2]);
+            map.getOrDefault(ad, new int[2])[1]++;
+            if(purchasedIp.contains(ip))
+                map.getOrDefault(ad, new int[2])[0]++;
+        }
+        List<String> res = new ArrayList<>();
+        for(String str : map.keySet()){
+            res.add(str + ": " + map.get(str)[0] + " " + map.get(str)[1]);
+        }
+        return res;
     }
 }
 class subDomainVisits{
@@ -233,6 +338,7 @@ class purchaseHistory{
         return res;
     }
 }
+
 
 
 

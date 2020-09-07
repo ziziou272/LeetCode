@@ -204,7 +204,7 @@ public class Calculator {
                 }
             }
         }
-        System.out.println(notMappedVariables);
+        //System.out.println(notMappedVariables);
         res = "" + calculator(res);
         for (String each : notMappedVariables) {
             res += each;

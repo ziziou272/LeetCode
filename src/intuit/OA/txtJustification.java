@@ -52,10 +52,10 @@ class justifySolution{
         //one word
         if(wordCount == 1) {
             res.append(words.get(start));
-            //add space
-           /* for (int i = words[start].length(); i < maxWidth; i++) {
-                res.append(" ");
-            }*/
+            //add space/-
+           for (int i = words.get(start).length(); i < maxWidth; i++) {
+                res.append("-");
+            }
             return res.toString();
         }
         //if last level
@@ -84,6 +84,9 @@ class justifySolution{
                     res.append(" ");
             }
         }
+        //add space for trailing part
+        for(int i = res.length(); i < maxWidth; i++)
+            res.append("-");
         return res.toString();
     }
 }
