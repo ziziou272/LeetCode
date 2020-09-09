@@ -6,88 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b89aed0-200f-4700-ac0d-0be81cdbeb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/AmazonFreshPromotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/BreakPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/BusinessNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/ClosetCity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/Debt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/DiskSpaceAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/GetMaxUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/MaximumAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/MinimumConnectionCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/NumberofClusters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/Pagination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/SLowestKeyPress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/SplitStringToPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/SquaredShortestPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/Turnstile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/countTeams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/findMaxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/LC1300.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/AverageAndMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/CheckPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/DecodeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/DecodeWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/Decrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/Encrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/Final.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/Final2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/MaxDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/Problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/Problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/Problem_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/QueenAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/RotateImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/ValidIPAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cisco/WordSearch2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/BellmanFord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/FindArticulationPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/LC587.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/testFor779.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindowTwoPointer/findLongest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blackRock/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blackRock/Problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blackRock/Problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blackRock/Problem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blackRock/countOccurrence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intuit/OA/oaWordSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intuit/VO/20.treasure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intuit/VO/Badge2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intuit/VO/Calculator2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intuit/VO/FindRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intuit/VO/FriendCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intuit/VO/Matrix2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intuit/VO/MeetingRoom2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intuit/VO/ParentChildren2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intuit/VO/courseSchedule2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stringAndArray/LC835ImageOverlap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AamazonOA2_2020/Fuel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kproblem/LC295FindMedianFromDataStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/Kproblem/LC973.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/Kproblem/LC973.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/Trie/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/Trie/Trie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/Trie/TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/Trie/TrieNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/com/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/com/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/OA/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/OA/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/OA/WordSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/OA/WordSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/OA/justifySolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/OA/justifySolution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/Domain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/Domain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/ParetnAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/ParetnAncestor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/SolutionParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/SolutionParent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/longestCommonHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/longestCommonHistory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/purchaseHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/purchaseHistory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/subDomainVisits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJavaCode/intuit/VO/subDomainVisits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BFS/LC126wordLadderII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BFS/LC126wordLadderII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intuit/OA/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intuit/OA/WordSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intuit/OA/txtJustification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intuit/OA/txtJustification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intuit/VO/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intuit/VO/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intuit/VO/Domain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intuit/VO/Domain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intuit/VO/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intuit/VO/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intuit/VO/ParetnAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intuit/VO/ParetnAncestor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -459,14 +380,8 @@
       <workItem from="1598882916576" duration="3942000" />
       <workItem from="1598930183608" duration="1881000" />
       <workItem from="1598955026805" duration="46401000" />
-      <workItem from="1599449311052" duration="839000" />
-    </task>
-    <task id="LOCAL-00018" summary="LC207 modified">
-      <created>1590208632995</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1590208632995</updated>
+      <workItem from="1599449311052" duration="4365000" />
+      <workItem from="1599545232082" duration="2703000" />
     </task>
     <task id="LOCAL-00019" summary="LC11 added">
       <created>1590356877477</created>
@@ -804,7 +719,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594595635819</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Add 785. Is Graph Bipartite">
+      <created>1599460577858</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1599460577859</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -953,9 +875,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="723" y="251" key="#xdebugger.evaluate/-1280.0.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1599233884358" />
-    <state x="1528" y="338" key="CommitChangelistDialog2" timestamp="1594595634943">
-      <screen x="1080" y="338" width="1920" height="1080" />
+    <state x="-981" y="0" key="CommitChangelistDialog2" timestamp="1599460576652">
+      <screen x="-1280" y="0" width="1280" height="800" />
     </state>
+    <state x="-981" y="0" key="CommitChangelistDialog2/-1280.0.1280.800/0.0.1920.1080@-1280.0.1280.800" timestamp="1599460576652" />
     <state x="-786" y="146" key="CommitChangelistDialog2/-1280.146.1280.800/0.0.1920.1080@-1280.146.1280.800" timestamp="1591741831239" />
     <state x="741" y="0" key="CommitChangelistDialog2/-1280.146.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1591744020798" />
     <state x="-786" y="280" key="CommitChangelistDialog2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591377116615" />
@@ -1124,13 +1047,19 @@
     </state>
     <state x="98" y="318" key="SettingsEditor/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592244782285" />
     <state x="174" y="179" key="SettingsEditor/0.0.1920.1080/-1080.-519.1080.1920@0.0.1920.1080" timestamp="1598021159598" />
-    <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591037562500">
-      <screen x="-1280" y="280" width="1280" height="800" />
+    <state x="-1040" y="140" key="Vcs.Push.Dialog.v2" timestamp="1599460525932">
+      <screen x="-1280" y="0" width="1280" height="800" />
     </state>
+    <state x="-1040" y="140" key="Vcs.Push.Dialog.v2/-1280.0.1280.800/0.0.1920.1080@-1280.0.1280.800" timestamp="1599460525932" />
+    <state x="-771" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599460491537">
+      <screen x="-1280" y="0" width="1280" height="800" />
+    </state>
+    <state x="-771" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.0.1280.800/0.0.1920.1080@-1280.0.1280.800" timestamp="1599460491537" />
     <state x="-771" y="624" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591037562500" />
-    <state x="457" y="158" width="1256" height="1005" key="search.everywhere.popup" timestamp="1597070384318">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="-975" y="117" width="838" height="745" key="search.everywhere.popup" timestamp="1599471137368">
+      <screen x="-1280" y="0" width="1280" height="800" />
     </state>
+    <state x="-975" y="117" width="838" height="745" key="search.everywhere.popup/-1280.0.1280.800/0.0.1920.1080@-1280.0.1280.800" timestamp="1599471137368" />
     <state x="-975" y="263" width="670" height="743" key="search.everywhere.popup/-1280.146.1280.800/0.0.1920.1080@-1280.146.1280.800" timestamp="1591741982537" />
     <state x="-975" y="397" width="670" height="743" key="search.everywhere.popup/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1591323133289" />
     <state x="257" y="281" width="670" height="1784" key="search.everywhere.popup/-1920.391.1920.1080/0.0.1080.1920@0.0.1080.1920" timestamp="1592504082290" />
