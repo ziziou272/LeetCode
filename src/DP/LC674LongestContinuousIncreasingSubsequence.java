@@ -17,6 +17,7 @@ public class LC674LongestContinuousIncreasingSubsequence {
         return max;
     }
 }
+
 /*
 1 3 5 4 7
 1 2 3 1 2
