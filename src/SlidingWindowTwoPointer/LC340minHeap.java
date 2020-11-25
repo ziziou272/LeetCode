@@ -1,7 +1,9 @@
 
 package SlidingWindowTwoPointer;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.TreeMap;
 
 public class LC340minHeap {
     /*
@@ -28,6 +30,33 @@ public class LC340minHeap {
                 map.remove(leftMost);
             }
             max = Math.max(max, fast - slow);
+        }
+        return max;
+    }
+
+    public int lengthOfLongestSubstringKDistinct2(String s, int k) {
+        //corner case
+        if(s == null) return 0;
+        if(s.length() <= k) return s.length();
+        HashMap<Character, Integer> map = new HashMap<>();
+        TreeMap<Integer, Character> treeMap = new TreeMap<>();
+        char[] arr = s.toCharArray();
+        int i = 0, j = 0;
+        int max = 0;
+        while(j < arr.length){
+            if(map.containsKey(arr[j]))
+                treeMap.remove(map.get(arr[j]));
+            map.put(arr[j], j);
+            treeMap.put(j, arr[j]);
+            while(map.size() > k){
+                int index = treeMap.firstKey();
+                char c = treeMap.get(index);
+                map.remove(c);
+                treeMap.remove(index);
+                i = index + 1;
+            }
+            j++;
+            max = Math.max(max, j - i);
         }
         return max;
     }
